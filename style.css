@@ -1,0 +1,150 @@
+h1{
+    color:#4682B4;
+    font-family : 'Brush Script MT', cursive;
+    font-size: 80px;
+}
+
+p{
+    color:dodgerblue;
+    font-family: Copperplate, Papyrus, fantasy;
+    font-size: 40px;
+
+
+}
+h3{
+    color:rgb(93, 42, 130);
+    font-family: "Courier New", Courier, monospace;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  
+  body {
+    color: rgba(204, 204, 204, .5);
+  }
+  
+  .head {
+    display: block;
+    margin: auto;
+    width: 1900px;
+    height: 56px;
+    background-color: #191919;
+  }
+  
+  .logo {
+    top: 5px;
+    left: 5px;
+    display: inline;
+    float: left;
+    width: 250px;
+    position: relative;
+    padding: 5px;
+  }
+  
+  .logo span {
+    float: left;
+    background-image: url(http://icons.iconarchive.com/icons/blackvariant/button-ui-requests-15/32/Amazon-Kindle-icon.png);
+    width: 8px;
+    height: 8px;
+    margin: 5px;
+  }
+  
+  .logo a {
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    font-size: 22pt;
+    line-height: 1.5;
+    left: 2px;
+  }
+  
+  .but {
+    float: left;
+    height: 56px;
+  }
+  
+  .items {
+    width: 500px;
+    position: relative;
+  }
+  
+  .item {
+    display: inline;
+    width: 80px;
+    height: 30px;
+    margin: 10px 10px;
+    line-height: 2.8;
+  }
+  
+  .item a {
+    color: rgba(204, 204, 204, .5);
+    text-decoration: none;
+    text-align: center;
+    font-size: 15pt;
+  }
+  
+  .item img {
+    padding: 5px;
+    position: relative;
+    top: 12px;
+  }
+  
+  img:after {
+    display: none;
+  }
+  
+  img:before {
+    display: none;
+  }
+  
+  .sign {
+    width: 3px;
+    height: 6px;
+    float: right;
+    display: inline;
+  }
+  
+  .sign ul {
+    float: left;
+    position: relative;
+    left: 55px;
+    top: 7px;
+  }
+  
+  .sign ul li {
+    height: 56px;
+    display: inline;
+    float: left;
+    margin: 0 12px;
+  }
+  
+  .sign ul li h6 {
+    display: inline;
+    font-size: 14pt;
+    margin: 9px;
+  }
+  
+  .sign ul li img {
+    position: relative;
+    top: 10px;
+  }
+  
+  .color {
+    color: #fff;
+  }
+  
+    
+   
+   /*header*/
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+  }
+  
+   
